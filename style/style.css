@@ -5,7 +5,230 @@
   list-style-type: none;
 }
 
-body main .last-div .img {
+body header {
+  background-color: #2C2D2D;
+  height: 600px;
+}
+
+body header .cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+body header .cont .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .cont .container .tcar h1 {
+  color: white;
+  font-weight: bold;
+}
+
+body header .cont .container .tcar h3 {
+  color: #FBB034;
+  margin-top: 10px;
+}
+
+body header .cont .container .tcar h5 {
+  color: #626467;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+body header .cont .container .tcar button {
+  color: white;
+}
+
+body header .cont .container .car1 {
+  width: 40%;
+}
+
+body header .cont .container .car1 img {
+  width: 80%;
+}
+
+body main .cont2 {
+  background-color: #F3F3F3;
+}
+
+body main .cont2 .container .logo1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0px;
+  color: #807A7A;
+}
+
+body main .cont2 .container .logo1 img {
+  width: 10%;
+}
+
+body main .logo2 {
+  background-color: #F3F3F3;
+  height: auto;
+  margin-top: 2rem;
+  padding: 30px 0px;
+}
+
+body main .logo2 .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .logo2 .container .card {
+  border: none;
+  text-align: center;
+  background-color: #F3F3F3;
+}
+
+body main .logo2 .container .card img {
+  width: 30%;
+  margin-left: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .logo2 .container .card p:first-of-type {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+  body header .cont .container .tcar {
+    text-align: center;
+  }
+  body header .cont .container .car1 {
+    width: 100%;
+  }
+  body main .cont2 .container .logo1 h4 {
+    font-size: 1rem;
+  }
+  body main .cont2 .container .logo1 h5 {
+    font-size: 0.8rem;
+  }
+  body main .cont2 .container .logo1 img {
+    width: 15%;
+  }
+  body main .logo2 {
+    width: 100%;
+  }
+  body main .logo2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .logo2 .container .card img {
+    width: 20%;
+  }
+  body main .logo2 .container .card p {
+    font-size: 0.8rem;
+  }
+  body main .logo2 .container .card p:first-of-type {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body header .cont .container .tcar {
+    text-align: center;
+  }
+  body header .cont .container .car1 {
+    width: 100%;
+  }
+  body main .logo2 {
+    width: 100%;
+  }
+  body main .logo2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .logo2 .container .card img {
+    width: 30%;
+  }
+  body main .logo2 .container .card p {
+    font-size: 1rem;
+  }
+  body main .logo2 .container .card p:first-of-type {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body main .logo2 {
+    width: 100%;
+  }
+  body main .logo2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .logo2 .container .card img {
+    width: 30%;
+  }
+  body main .logo2 .container .card p {
+    font-size: 1rem;
+  }
+  body main .logo2 .container .card p:first-of-type {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  body main .logo2 {
+    width: 100%;
+  }
+  body main .logo2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main .logo2 .container .card img {
+    width: 30%;
+  }
+  body main .logo2 .container .card p {
+    font-size: 1rem;
+  }
+  body main .logo2 .container .card p:first-of-type {
+    font-size: 1.5rem;
+  }
+}
+
+.last-div .img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,21 +241,21 @@ body main .last-div .img {
           align-items: center;
 }
 
-body main .last-div .img img {
+.last-div .img img {
   margin-top: 3rem;
   width: 60px;
 }
 
-body main .last-div .img h2 {
+.last-div .img h2 {
   margin: 1rem 0px;
 }
 
-body main .last-div .img p {
+.last-div .img p {
   font-size: small;
   width: 50rem;
 }
 
-body main .last-div .last {
+.last-div .last {
   margin: 0;
   padding: 0;
   -webkit-box-pack: space-evenly;
@@ -41,7 +264,7 @@ body main .last-div .last {
   margin-top: 5rem;
 }
 
-body main .last-div .last .right .card {
+.last-div .last .right .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,7 +275,7 @@ body main .last-div .last .right .card {
   border: none;
 }
 
-body main .last-div .last .right .card img {
+.last-div .last .right .card img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -60,11 +283,11 @@ body main .last-div .last .right .card img {
   margin-left: 90px;
 }
 
-body footer #foot {
+footer #foot {
   background-color: black;
 }
 
-body footer #foot .head {
+footer #foot .head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,11 +300,11 @@ body footer #foot .head {
           align-items: center;
 }
 
-body footer #foot .head h1 {
+footer #foot .head h1 {
   color: #fff;
 }
 
-body footer #foot .middle {
+footer #foot .middle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,11 +313,11 @@ body footer #foot .middle {
           justify-content: center;
 }
 
-body footer #foot .middle .form-inline .form-group .form-control-plaintext {
+footer #foot .middle .form-inline .form-group .form-control-plaintext {
   background-color: grey;
 }
 
-body footer .social {
+footer .social {
   background-color: grey;
   height: 3rem;
   display: -webkit-box;
@@ -109,7 +332,7 @@ body footer .social {
           justify-content: center;
 }
 
-body footer .social i {
+footer .social i {
   width: 35px;
   margin-top: 1rem;
 }
